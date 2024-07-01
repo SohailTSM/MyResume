@@ -1,0 +1,129 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+header div {
+  margin: 5px 0;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+section {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.experience,
+.education,
+.certificate,
+.course,
+.project,
+.hackathon {
+  margin-bottom: 20px;
+}
+
+.experience h3,
+.education h3,
+.certificate h3,
+.course h3,
+.project h3,
+.hackathon h3 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.project ul,
+.experience ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills div,
+.languages div {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.skills,
+.languages {
+  margin-bottom: 20px;
+}
+
+.skills div,
+.languages div {
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+section a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+#career-objective {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+#professional-experience {
+  grid-area: 1 / 2 / span 2 / span 1;
+}
+
+#education {
+  grid-area: 2 / 1 / span 2 / span 1;
+}
+
+#certificates {
+  grid-area: 3 / 2 / span 1 / span 1;
+}
+
+#projects {
+  grid-area: 4 / 2 / span 4 / span 1;
+}
